@@ -1,0 +1,71 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+mat-card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+/* Botón principal */
+button.mat-primary {
+  background: linear-gradient(135deg, #1688bd, #3545f1);
+  color: white;
+  box-shadow: 0 4px 12px rgba(6, 183, 219, 0.3);
+}
+
+button.mat-primary:hover {
+  background: linear-gradient(135deg, #0fbbe6, #063462);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(10, 148, 122, 0.4);
+}
+
+/* Botón secundario */
+button.mat-accent {
+  background: #424242;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button.mat-accent:hover {
+  background: #212121;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}

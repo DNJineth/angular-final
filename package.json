@@ -15,10 +15,17 @@
             "outputPath": "dist/angular-final",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": ["zone.js"],
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
-            "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.css"],
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -48,5 +55,27 @@
         }
       }
     }
+  },
+  "dependencies": {
+    "@angular/animations": "^20.2.3",
+    "@angular/cdk": "^20.2.1",
+    "@angular/common": "^20.2.3",
+    "@angular/compiler": "^20.2.3",
+    "@angular/core": "^20.2.3",
+    "@angular/forms": "^20.2.3",
+    "@angular/material": "^20.2.1",
+    "@angular/platform-browser": "^20.2.3",
+    "@angular/router": "^20.2.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^20.2.1",
+    "@angular-devkit/schematics": "^20.2.1",
+    "@types/jasmine": "^5.1.9",
+    "jasmine-core": "^5.10.0",
+    "karma": "^6.4.4",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.1.0",
+    "typescript": "^5.9.2"
   }
 }

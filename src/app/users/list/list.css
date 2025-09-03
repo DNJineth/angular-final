@@ -1,0 +1,42 @@
+:host {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+mat-card {
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #f0f0f0;
+  font-weight: bold;
+}
+
+tr:hover {
+  background: #f9f9f9;
+}

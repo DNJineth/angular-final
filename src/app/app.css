@@ -1,0 +1,22 @@
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.container {
+  padding: 20px;
+}
+
+button[mat-button] {
+  background-color: white;
+  color: #1976d2;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-left: 10px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button[mat-button]:hover {
+  background-color: #e3f2fd;
+  transform: scale(1.05);
+}
